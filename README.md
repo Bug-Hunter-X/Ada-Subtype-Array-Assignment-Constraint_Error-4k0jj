@@ -1,0 +1,1 @@
+This example demonstrates a subtle but common error in Ada programming related to array subtypes and assignments.  The code attempts to assign a larger array to a smaller subtype array, resulting in a Constraint_Error. The solution shows how to correctly handle subtype assignments using explicit slicing or type conversion (if appropriate).
